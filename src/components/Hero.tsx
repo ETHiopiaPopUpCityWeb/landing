@@ -7,8 +7,8 @@ const Hero = () => {
         <div className="flex justify-center max-sm:px-2">
           <div className="py-8 flex gap-5 max-sm:flex-col max-sm:p-[30px] justify-center items-center">
             <div className="w-1/2 max-sm:w-[100%]">
-              <h1 className="text-[52px] max-sm:text-2xl leading-none font-semibold">
-               Lorem ipsum, dolor sit amet consectetur .
+              <h1 className="text-[52px] max-sm:text-2xl font-semibold  leading-none">
+               Lorem ipsum, dolor sit amet consectetur.
               </h1>
             </div>
             <div className="w-1/2 max-sm:w-full flex items-center justify-center h-full">
@@ -25,14 +25,14 @@ const Hero = () => {
             <HeroCard number={2000} title="Lorem" />
             <HeroCard number={21000} title="Lorem" />
           </div>
-          <div className="flex-1 relative h-[250px] bg-gray-400 max-sm:h-[auto]">
+          <div className="flex-1 relative h-[250px]  max-sm:h-[auto]">
             <div className="h-[120px] w-[120px] max-sm:w-[100px] max-sm:h-[100px] rounded-full absolute right-[5%] max-sm:top-[-25%] top-[-25%] bg-yellow-300">
-              {/* <img src="/jeba.jpg" alt="Jeba Logo" className="rounded-full" /> */}
+              
             </div>
             <img
               src="https://placehold.co/600x400"
               alt="Event"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover rounded-l-3xl"
             />
           </div>
         </div>
