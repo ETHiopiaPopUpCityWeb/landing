@@ -1,6 +1,3 @@
-import { GoArrowUpRight } from "react-icons/go";
-import { Link } from "react-router-dom";
-
 const About = () => {
   return (
     <section className="py-10 relative">
@@ -25,23 +22,20 @@ const About = () => {
 
           <div className="flex-col h-full justify-center items-start  gap-5 inline-flex">
             <div className="flex-col justify-end items-start gap-4 flex">
-              <p className="px-4 py-1 border rounded-full text-xs font-medium">
-                ABOUT US
-              </p>
               <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                Lorem, ipsum dolor.{" "}
-                <span className="text-lime-500">Placeat</span>
+                Why <span className="text-lime-400">ETHiopia</span>
               </h2>
 
-              <p className="text-gray-600 font-light leading-relaxed text-base lg:text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Distinctio placeat expedita aliquid et nulla eos numquam, maxime
-                exercitationem beatae magnam!
+              <p className="text-gray-700 font-normal leading-relaxed text-base lg:text-lg">
+                The Ethiopian government has launched "Addis Tomorrow," a smart
+                city initiative, alongside special economic zones (SEZs) in the
+                capital. These SEZs will feature sub- zones for international
+                trade, education, finance, business, and housing. Additionally,
+                major tech-focused projects, including the luxury Mohamadia
+                Village by billionaire Sheikh Mohamed Hussein Al Amoudi, offer
+                significant opportunities to integrate Web3 solutions.
               </p>
             </div>
-            <Link to="/#" className="flex gap-1 items-center  font-medium">
-              Learn more <GoArrowUpRight />
-            </Link>
           </div>
         </div>
       </div>

@@ -38,7 +38,7 @@ const EventCard = ({ isDark }: EventCardProps) => {
           className={`text-xs ${isDark ? "text-gray-300" : "text-gray-600"} `}
         >
           <button
-            className={`flex justify-start gap-1 items-center rounded-full  font-medium px-5 py-2 border hover:bg-lime-500 hover:text-black border-gray-500 w-40 `}
+            className={`flex justify-start gap-1 items-center rounded-full  font-medium px-5 py-2 border hover:bg-lime-400 hover:text-black border-gray-500 w-40 `}
           >
             Learn more <GoArrowUpRight />
           </button>

@@ -15,7 +15,7 @@ const ComingSoon = () => {
               type="email"
               placeholder="Enter your email address"
             />
-            <button className="bg-lime-500 hover:bg-lime-600 text-black font-bold   py-2 px-4 border -800">
+            <button className="bg-lime-400 hover:bg-lime-600 text-black font-bold   py-2 px-4 border -800">
               Notify Me
             </button>
           </form>

@@ -7,14 +7,19 @@ const Hero = () => {
         <div className="flex justify-center max-sm:px-2">
           <div className="py-8 flex gap-5 max-sm:flex-col max-sm:p-[30px] justify-center items-center">
             <div className="w-1/2 max-sm:w-[100%]">
-              <h1 className="text-[52px] max-sm:text-2xl font-semibold  leading-none">
-                Lorem ipsum, dolor sit amet consectetur.
+              <h1 className="text-4xl md:text-7xl font-bold leading-none text-gray-800">
+                Welcome to the{" "}
+                <span className="bg-gradient-to-r from-lime-300 via-orange-700 to-yellow-500 bg-clip-text text-transparent font-extrabold">
+                  ETHiopia
+                </span>{" "}
+                Pop Up
               </h1>
             </div>
             <div className="w-1/2 max-sm:w-full flex items-center justify-center h-full">
-              <h4 className="max-sm:w-full w-[400px] text-base m-auto">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
-                nihil est, soluta accusantium repudiandae repellendus.
+              <h4 className="max-sm:w-full w-[400px] text-lg m-auto text-gray-800">
+                A groundbreaking crypto-focused hub where innovation, community,
+                and blockchain converge. Discover the future of decentralized
+                living!
               </h4>
             </div>
           </div>
@@ -22,15 +27,15 @@ const Hero = () => {
 
         <div className="flex gap-9 pl-0 max-sm:p-0 max-sm:flex-col my-3">
           <div className="flex flex-col justify-center max-sm:flex-row gap-3">
-            <HeroCard number={23} title="Lorem" />
-            <HeroCard number={2000} title="Lorem" />
-            <HeroCard number={21000} title="Lorem" />
+            <HeroCard number={10} title="Workshops" />
+            <HeroCard number={100} title="Participants" />
+            <HeroCard number={50} title="Builders" />
           </div>
-          <div className="flex-1 relative h-[250px]  max-sm:h-[auto]">
+          <div className="flex-1 relative h-[250px] max-sm:h-[auto]">
             <div className="h-[120px] w-[120px] max-sm:w-[100px] max-sm:h-[100px] rounded-full absolute right-[5%] max-sm:top-[-25%] top-[-25%] bg-yellow-300"></div>
             <img
-              src="https://placehold.co/600x400"
-              alt="Event"
+              src="https://placehold.co/450x400"
+              alt="ETHiopia Cityscape"
               className="w-full h-full object-cover rounded-l-3xl"
             />
           </div>

@@ -15,7 +15,7 @@ const MainEvent = () => {
           <div className="bg-gradient-to-t from-lime-40 flex justify-center absolute top-0 left-0 bottom-0 right-0">
             <div className="max-w-[83rem] max-sm:w-full flex flex-col justify-center items-center gap-4">
               <div>
-                <h1 className="text-5xl text-lime-500 font-bold">ETHiopia</h1>
+                <h1 className="text-5xl text-lime-400 font-bold">ETHiopia</h1>
               </div>
 
               <div className="p-4 max-w-3xl">
