@@ -17,7 +17,7 @@ const Hero = () => {
             </div>
             <div className="w-1/2 max-sm:w-full flex items-center justify-center h-full">
               <h4 className="max-sm:w-full w-[400px] text-lg m-auto text-gray-800">
-                A groundbreaking crypto-focused hub where innovation, community,
+                A groundbreaking web3-focused hub where innovation, community,
                 and blockchain converge. Discover the future of decentralized
                 living!
               </h4>
