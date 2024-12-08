@@ -14,21 +14,25 @@ const ServiceCard: React.FC<ServicesCardProps> = ({
   return (
     <Link to="#">
       <div
-        className={`flex min-w-[250px] transition-transform duration-200 hover:scale-105 p-6 h-72 ${
-          isDark ? "bg-lime-400 text-black" : "bg-neutral-700 text-white"
-        } rounded-xl flex-col gap-4 items-start shadow-md hover:shadow-lg`}
+        className={`flex min-w-[250px] transition-transform duration-300 hover:scale-105 p-6 h-72 ${
+          isDark ? "bg-orange-100 text-black" : "bg-orange-100 text-black"
+        } rounded-2xl flex-col gap-4 items-start shadow-lg hover:shadow-xl`}
       >
+        {/* Title Circle */}
         <div className="flex items-center justify-center w-14 h-14 rounded-full text-lg font-semibold">
           <div
             className={`w-full h-full flex items-center justify-center rounded-full text-2xl ${
-              isDark ? "text-black bg-lime-300" : "text-lime-400 bg-neutral-600"
+              isDark
+                ? "text-orange-600 bg-orange-200"
+                : "text-orange-600 bg-orange-200"
             }`}
           >
             <h2>{title}</h2>
           </div>
         </div>
 
-        <h1 className="text-sm font-light tracking-wider leading-snug">
+        {/* Description */}
+        <h1 className="text-sm font-medium tracking-wide leading-relaxed">
           {description}
         </h1>
       </div>

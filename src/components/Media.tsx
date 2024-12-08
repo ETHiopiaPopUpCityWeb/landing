@@ -1,4 +1,3 @@
-import { useEffect, useRef } from "react";
 import MediaCard from "./MediaCard";
 
 const datas = [
@@ -21,36 +20,6 @@ const datas = [
 ];
 
 const Media = () => {
-  const videoRef = useRef<HTMLVideoElement | null>(null);
-
-  useEffect(() => {
-    const videoElement = videoRef.current;
-
-    const observer = new IntersectionObserver(([entry]) => {
-      if (videoElement) {
-        if (entry.isIntersecting) {
-          videoElement
-            .play()
-            .catch((err) => console.error("Failed to play video:", err));
-        } else {
-          videoElement.pause();
-        }
-      }
-    });
-
-    // Start observing the video element
-    if (videoElement) {
-      observer.observe(videoElement);
-    }
-
-    // Cleanup on unmount
-    return () => {
-      if (videoElement) {
-        observer.unobserve(videoElement);
-      }
-    };
-  }, []);
-
   return (
     <section className="py-10 relative">
       <div className="max-w-[83rem] px-4 md:px-0 lg:px-0 mx-auto">
@@ -59,7 +28,7 @@ const Media = () => {
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
               The Goals
             </h2>
-            <p className="text-gray-600  leading-relaxed text-base max-w-5xl lg:text-lg">
+            <p className="text-gray-600  leading-relaxed text-base max-w-4xl lg:text-lg">
               Our mission is to unite Africa's brightest Web3 innovators, foster
               collaboration among diverse communities, and showcase Ethiopia as
               a global hub for blockchain technology.

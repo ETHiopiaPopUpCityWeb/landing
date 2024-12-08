@@ -16,15 +16,15 @@ const eventData = [
     link: "/",
   },
   {
-    title: "Hackathon",
-    desc: "Create blockchain innovation, solve challenges, win prizes and network",
-    img: "/hack.png",
-    link: "/",
-  },
-  {
     title: "Builders Residency",
     desc: "Web3 leaders meet to collab, Ideate, prep for Hackathon by Lake Hawassa",
     img: "/lake.jpg",
+    link: "/",
+  },
+  {
+    title: "Hackathon",
+    desc: "Create blockchain innovation, solve challenges, win prizes and network",
+    img: "/hack2.jpg",
     link: "/",
   },
 ];
@@ -36,7 +36,7 @@ const EventCard = ({ isDark, title, desc, img, link }: EventCardProps) => {
         className={`transition-all duration-200 ${
           isDark
             ? "bg-neutral-800 hover:bg-neutral-900"
-            : "bg-neutral-50 hover:bg-neutral-100"
+            : "bg-gray-100 hover:bg-neutral-100"
         } p-5 rounded-xl min-w-[250px] bg-neutral-100 flex flex-col gap-5`}
       >
         <img

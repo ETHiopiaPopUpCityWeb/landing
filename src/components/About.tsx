@@ -9,22 +9,18 @@ const About = () => {
               src="/city.jpg"
               alt="about Us image"
             />
-
-            {/* <div className="absolute right-5 top-0 transform translate-x-[20%] -translate-y-[50%] border-4 border-white bg-neutral-800 p-6 md:p-10 text-white rounded-3xl object-cover z-20">
-              <h3 className="text-5xl font-bold">
-                80<span className="text-lime-400 font-normal">+</span>
-              </h3>
-              <p className="text-base text-lime-400">Cultures</p>
-            </div> */}
           </div>
 
           <div className="flex-col h-full justify-center items-start  gap-5 inline-flex">
             <div className="flex-col justify-end items-start gap-4 flex">
-              <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                Why <span className="text-lime-400">ETHiopia</span>
+              <h2 className="text-4xl lg:text-7xl font-bold text-gray-900 leading-tight">
+                Why{" "}
+                <span className="bg-gradient-to-br from-green-800 via-yellow-800 to-red-800 bg-clip-text text-transparent font-extrabold">
+                  Ethiopia
+                </span>{" "}
               </h2>
 
-              <p className="text-gray-700 font-normal leading-relaxed text-base lg:text-lg">
+              <p className="text-gray-700 font-normal leading-relaxed text-base lg:text-xl">
                 The Ethiopian government has launched "Addis Tomorrow," a smart
                 city initiative, alongside special economic zones (SEZs) in the
                 capital. These SEZs will feature sub- zones for international
