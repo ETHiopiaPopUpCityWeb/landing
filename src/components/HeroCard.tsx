@@ -7,7 +7,7 @@ interface HeroCardProps {
 
 const HeroCard: React.FC<HeroCardProps> = ({ title, number }) => {
   return (
-    <div className="p-4 px-6    text-orange-800  rounded-2xl">
+    <div className="p-4 px- text-orange-800  rounded-2xl">
       <h1 className="text-4xl font-semibold">
         {number}
         <span className="">+</span>

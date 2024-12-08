@@ -18,7 +18,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="pt-20 max-h-fit bg-green-30 max-sm:w-full flex justify-center">
+    <div className="pt-20 max-h-fit bg-green-30 max-sm:w-full flex justify-center max-sm:px-2">
       <motion.div
         className="max-w-[83rem] max-sm:w-full"
         initial="hidden"
@@ -29,7 +29,7 @@ const Hero = () => {
         }}
       >
         {/* Hero Text */}
-        <motion.div className="flex justify-center max-sm:px-2" variants={textAnimation}>
+        <motion.div className="flex justify-center" variants={textAnimation}>
           <div className="py-8 flex gap-5 max-sm:flex-col max-sm:p-[30px] justify-center items-center">
             <div className="w-1/2 max-sm:w-[100%]">
               <h1 className="text-4xl md:text-7xl font-bold leading-none text-gray-800">
@@ -51,7 +51,7 @@ const Hero = () => {
 
         {/* Hero Cards */}
         <motion.div
-          className="flex gap-9 pl-0 max-sm:p-0 max-sm:flex-col my-3"
+          className="flex gap-9 max-sm:flex-col my-3"
           variants={{
             hidden: { opacity: 0 },
             visible: { opacity: 1, transition: { duration: 0.8, staggerChildren: 0.3 } },
@@ -70,7 +70,7 @@ const Hero = () => {
           </div>
 
           {/* City Image */}
-          <motion.div className="flex-1 relative h-[300px] max-sm:h-[auto]" variants={imageAnimation}>
+          <motion.div className="flex-1 relative h-[300px] max-sm:h-[auto]  mt-10" variants={imageAnimation}>
             <div className="h-[150px] w-[150px] max-sm:w-[100px] max-sm:h-[100px] rounded-full absolute right-[5%] max-sm:top-[-25%] top-[-25%] bg-lime-300">
               <img
                 src="logo.jpg"

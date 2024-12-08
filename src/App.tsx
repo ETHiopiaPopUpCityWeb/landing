@@ -10,7 +10,7 @@ const App = () => {
     <BrowserRouter>
       <div className="min-h-screen max-w-screen flex flex-col">
         <Navbar />
-        <div className="flex-1">
+        <div className="flex-1 px-2">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/events" element={<EventPage />} />

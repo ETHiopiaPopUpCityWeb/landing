@@ -4,7 +4,7 @@ const Services = () => {
   return (
     <div className="my-14">
       <div className="flex justify-center">
-        <div className="p-8 py-14 bg-sky-950 max-w-[83rem] rounded-3xl max-sm:w-full flex flex-col items-start gap-6 shadow-lg">
+        <div className="p-4 lg:p-8 py-8  lg:py-14 bg-sky-950 max-w-[83rem] rounded-3xl max-sm:w-full flex flex-col items-start gap-6 shadow-lg">
           {/* Vision Tagline */}
           <div>
             <p className="px-4 py-1 border border-yellow-400 rounded-full text-sm text-yellow-400 font-semibold tracking-wide">

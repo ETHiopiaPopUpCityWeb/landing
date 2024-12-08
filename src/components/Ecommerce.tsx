@@ -1,9 +1,9 @@
 const Ecommerce = () => {
   return (
     <div>
-      <section className="py-20">
-        <div className="mx-auto max-w-[83rem] px-4 sm:px-0 lg:px-0">
-          <div className="xl:p-16 gap-32 p-12 rounded-3xl bg-sky-950 flex justify-between flex-col lg:flex-row">
+      <section className="lg:py-20">
+        <div className="mx-auto max-w-[83rem] sm:px-0 lg:px-0">
+          <div className="xl:p-16 gap-32 p-4 lg:p-12 rounded-3xl bg-sky-950 flex justify-between flex-col lg:flex-row">
             {/* Image Section */}
             <div className="w-full lg:w-2/6 relative">
               <img src="/qr.png" alt="CTA section" className="rounded-lg" />
