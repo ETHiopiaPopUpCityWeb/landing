@@ -21,11 +21,11 @@ const Navbar = () => {
             to="/"
           >
             <img
-              src="/logo2.png"
+              src="/logo3.png"
               alt="Logo"
               className=" rounded p-1 w-12 h-16"
             />
-            <h2 className="font-bold text-2xl">ETHiopia</h2>
+            <h2 className="hidden md:flex font-bold lg:text-2xl">ETHiopia</h2>
           </Link>
         </div>
 
@@ -35,7 +35,7 @@ const Navbar = () => {
             type="button"
             className="px-8 py-2 rounded-full border bg-black text-white border-black font-semibold hover:text-lime-400 "
           >
-            Get Ticket
+            Apply to Attend
           </Link>
         </div>
 

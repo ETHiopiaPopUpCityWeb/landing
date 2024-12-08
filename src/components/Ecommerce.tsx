@@ -7,9 +7,9 @@ const Ecommerce = () => {
             {/* Image Section */}
             <div className="w-full lg:w-2/6 relative">
               <img
-                src="image.png"
+                src="/qr.png"
                 alt="CTA section"
-                className="xl:absolute xl:bottom-0 rounded-t-3xl -mb-12 mx-auto lg:-mb-12 xl:-mb-16 lg:mx-0 object-cover"
+                className="rounded-lg"
               />
             </div>
 

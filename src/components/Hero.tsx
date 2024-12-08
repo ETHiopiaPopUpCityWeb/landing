@@ -9,7 +9,7 @@ const Hero = () => {
             <div className="w-1/2 max-sm:w-[100%]">
               <h1 className="text-4xl md:text-7xl font-bold leading-none text-gray-800">
                 Welcome to the{" "}
-                <span className="bg-gradient-to-r from-lime-300 via-orange-700 to-yellow-500 bg-clip-text text-transparent font-extrabold">
+                <span className="bg-gradient-to-r from-lime-800 via-yellow-700 to-red-800 bg-clip-text text-transparent font-extrabold">
                   ETHiopia
                 </span>{" "}
                 Pop Up
@@ -32,9 +32,15 @@ const Hero = () => {
             <HeroCard number={50} title="Builders" />
           </div>
           <div className="flex-1 relative h-[250px] max-sm:h-[auto]">
-            <div className="h-[120px] w-[120px] max-sm:w-[100px] max-sm:h-[100px] rounded-full absolute right-[5%] max-sm:top-[-25%] top-[-25%] bg-yellow-300"></div>
+            <div className="h-[150px] w-[150px] max-sm:w-[100px] max-sm:h-[100px] rounded-full absolute right-[5%] max-sm:top-[-25%] top-[-25%] bg-lime-300">
+              <img
+                src="logo.jpg"
+                alt="ETHiopia Cityscape"
+                className="w-full h-full object-cover rounded-full"
+              />
+            </div>
             <img
-              src="https://placehold.co/450x400"
+              src="/city2.jpg"
               alt="ETHiopia Cityscape"
               className="w-full h-full object-cover rounded-l-3xl"
             />

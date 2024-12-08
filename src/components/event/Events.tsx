@@ -12,19 +12,19 @@ const eventData = [
   {
     title: "Conference",
     desc: "Explore Web3's future from global leaders and African pioneers.",
-    img: "https://placehold.co/600x400",
+    img: "/conf.jpg",
     link: "/",
   },
   {
     title: "Hackathon",
     desc: "Create blockchain innovation, solve challenges, win prizes and network",
-    img: "https://placehold.co/600x400",
+    img: "/hack.png",
     link: "/",
   },
   {
     title: "Builders Residency",
     desc: "Web3 leaders meet to collab, Ideate, prep for Hackathon by Lake Hawassa",
-    img: "https://placehold.co/600x400",
+    img: "/lake.jpg",
     link: "/",
   },
 ];

@@ -70,7 +70,7 @@ const Media = () => {
             <MediaCard textColor="primary" desc={datas[0].desc} index={0} />
             <div className="md:col-span-2">
               <img
-                src="https://placehold.co/600x400"
+                src="/city3.jpg"
                 className="lg:mx-0 mx-auto rounded-3xl object-cover w-full h-auto md:h-64"
                 style={{ objectFit: "cover" }}
               />

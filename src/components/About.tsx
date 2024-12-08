@@ -6,18 +6,16 @@ const About = () => {
           <div className="relative flex items-end">
             <img
               className="lg:mx-0 mx-auto rounded-3xl object-cover h-80 lg:h-96"
-              src="https://placehold.co/450x400"
+              src="/city.jpg"
               alt="about Us image"
             />
 
-            <div className="absolute left-1/2 top-1/2 transform translate-x-[20%] -translate-y-[50%] border-4 border-white bg-neutral-800 p-6 md:p-10 text-white rounded-3xl object-cover z-20">
+            {/* <div className="absolute right-5 top-0 transform translate-x-[20%] -translate-y-[50%] border-4 border-white bg-neutral-800 p-6 md:p-10 text-white rounded-3xl object-cover z-20">
               <h3 className="text-5xl font-bold">
-                5<span className="text-lime-400 font-normal">+</span>
+                80<span className="text-lime-400 font-normal">+</span>
               </h3>
-              <p className="font-extralight text-sm text-lime-400">
-                Lorem, ipsum.
-              </p>
-            </div>
+              <p className="text-base text-lime-400">Cultures</p>
+            </div> */}
           </div>
 
           <div className="flex-col h-full justify-center items-start  gap-5 inline-flex">
