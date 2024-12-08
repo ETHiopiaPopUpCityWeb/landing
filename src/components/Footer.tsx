@@ -1,4 +1,5 @@
-import { FaTwitter, FaLinkedin, FaTelegram } from "react-icons/fa";
+import { FaTwitter, FaTelegram } from "react-icons/fa";
+import { RiBookLine } from "react-icons/ri";
 
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
           <ul className="flex flex-wrap items-center gap-4">
             <li>
               <a
-                href="#"
+                href="https://x.com/ETHiopia"
                 className="text-xs text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-none focus:decoration-2"
               >
                 <FaTwitter className="inline-block mr-1" />X (Twitter)
@@ -21,16 +22,16 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="https://hackmd.io/wfQg8ON-TMWsYrT3xEqoDA?view"
                 className="text-xs text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-none focus:decoration-2"
               >
-                <FaLinkedin className="inline-block mr-1" />
-                LinkedIn
+                <RiBookLine className="inline-block mr-1" />
+                Agenda
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="https://t.me/+AjDnr___sQNkMGNl"
                 className="text-xs text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-none focus:decoration-2"
               >
                 <FaTelegram className="inline-block mr-1" />

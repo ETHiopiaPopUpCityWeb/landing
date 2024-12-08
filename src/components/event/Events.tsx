@@ -11,19 +11,19 @@ type EventCardProps = {
 const eventData = [
   {
     title: "Conference",
-    desc: "Explore Web3's future from global leaders and African pioneers.",
+    desc: "Join us for the 1st Ethereum Conference in Ethiopia, a landmark event exploring how Ethereum can scale across Africa to unlock its immense potential. Over two days, we’ll delve into the transformative power of decentralized technologies, showcasing African-led innovations and spotlighting the continent's role in shaping Ethereum’s future. Expect an inspiring mix of panel discussions, expert-led sessions, and community showcases—designed to connect developers, entrepreneurs, policymakers, and visionaries from across Africa and the global Ethereum ecosystem.",
     img: "/conf.jpg",
     link: "/",
   },
   {
     title: "Builders Residency",
-    desc: "Web3 leaders meet to collab, Ideate, prep for Hackathon by Lake Hawassa",
+    desc: "January 21-February 21st This is where the collaboration magic happens, builders on the continent often fight for the same ressources and have limited opportunities to network, learn from and collaborate with each other. This is a call to action for all the changemakers ready to strategize on what does ethereum look like on the continent with a focus on human incubation, ideation and united nations style round circle ideations. Curious to learn more about our full ETHiopia Pop Up evolving Agenda?",
     img: "/lake.jpg",
-    link: "/",
+    link: "https://hackmd.io/wfQg8ON-TMWsYrT3xEqoDA?view",
   },
   {
     title: "Hackathon",
-    desc: "Create blockchain innovation, solve challenges, win prizes and network",
+    desc: "A hackathon is an intense, collaborative event where developers, designers, and innovators come together to solve problems, build projects, and create solutions using technology, in this case Ethereum and products in its ecosystem! This week-long experience combines expert-led workshops in Solidity development, interactive problem-solving sessions, and opportunities to push boundaries in real world blockchain innovation.From ideation to creation, participants will learn, code, and innovate together in a fast-paced environment that encourages creativity, skill-building, and community-building. By the end of the week, you'll leave with real-world accomplishments, new projects, and a stronger network to continue contributing to the Ethereum ecosystem.",
     img: "/hack2.jpg",
     link: "/",
   },
@@ -52,7 +52,7 @@ const EventCard = ({ isDark, title, desc, img, link }: EventCardProps) => {
         </div>
 
         <div
-          className={`text-lg ${isDark ? "text-gray-300" : "text-gray-600"} `}
+          className={`text-sm ${isDark ? "text-gray-300" : "text-gray-600"} `}
         >
           <p>{desc}</p>
         </div>

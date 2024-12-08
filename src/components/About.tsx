@@ -21,13 +21,22 @@ const About = () => {
               </h2>
 
               <p className="text-gray-700 font-normal leading-relaxed text-base lg:text-xl">
-                The Ethiopian government has launched "Addis Tomorrow," a smart
-                city initiative, alongside special economic zones (SEZs) in the
-                capital. These SEZs will feature sub- zones for international
-                trade, education, finance, business, and housing. Additionally,
-                major tech-focused projects, including the luxury Mohamadia
-                Village by billionaire Sheikh Mohamed Hussein Al Amoudi, offer
-                significant opportunities to integrate Web3 solutions.
+                The Ethiopian government has launched "
+                <a
+                  href="https://www.fanabc.com/english/pm-abiy-launches-construction-of-addis-tomorrow-special-economic-zone/"
+                  className="border-b text-indigo-500"
+                >
+                  Addis Tomorrow,
+                </a>
+                " a smart city initiative, alongside special economic zones
+                (SEZs) in the capital. These SEZs will feature sub- zones for
+                international trade, education, finance, business, and housing.
+                Additionally, major tech-focused projects, including the luxury
+                Mohamadia Village by billionaire Sheikh Mohamed Hussein Al
+                Amoudi, offer significant opportunities to {" "}
+                <a href="/" className="border-b text-indigo-500">
+                  integrate Web3 solutions.
+                </a>
               </p>
             </div>
           </div>
