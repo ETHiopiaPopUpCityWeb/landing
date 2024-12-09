@@ -11,7 +11,7 @@ const HeroCard: React.FC<HeroCardProps> = ({ title, number }) => {
       <h1 className="text-2xl lg:text-4xl font-semibold">
         {number}
       </h1>
-      <h1 className="text-base">{title}</h1>
+      <h1 className="text-base whitespace-nowrap">{title}</h1>
     </div>
   );
 };

@@ -5,8 +5,8 @@ const About = () => {
         <div className="w-full justify-start items-center gap-8 grid lg:grid-cols-2 grid-cols-1">
           <div className="relative flex items-end">
             <img
-              className="lg:mx-0 mx-auto rounded-3xl object-cover h-80 lg:h-96"
-              src="/city.jpg"
+              className="lg:mx-0 mx-auto rounded-3xl object-cover h-80 lg:w-[38rem] lg:h-[25rem]"
+              src="/garden.jpg"
               alt="about Us image"
             />
           </div>
@@ -33,7 +33,7 @@ const About = () => {
                 international trade, education, finance, business, and housing.
                 Additionally, major tech-focused projects, including the luxury
                 Mohamadia Village by billionaire Sheikh Mohamed Hussein Al
-                Amoudi, offer significant opportunities to {" "}
+                Amoudi, offer significant opportunities to{" "}
                 <a href="/" className="border-b text-indigo-500">
                   integrate Web3 solutions.
                 </a>

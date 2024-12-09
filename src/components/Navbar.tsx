@@ -67,7 +67,7 @@ const Navbar = () => {
             {navlinks.map((item, index) => (
               <div key={index}>
                 <Link
-                  className={`relative font-semibold inline-block    pb-1
+                  className={`relative font-semibold inline-block text-lg hover:text-orange-700    pb-1
                     ${
                       location.pathname === item.href
                         ? "text-gray-950 focus:outline-none before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-orange-400"

@@ -6,7 +6,7 @@ const Ecommerce = () => {
           <div className="xl:p-16 gap-32 p-4 lg:p-12 rounded-3xl bg-sky-950 flex justify-between flex-col lg:flex-row">
             {/* Image Section */}
             <div className="w-full lg:w-2/6 relative">
-              <img src="/qr.png" alt="CTA section" className="rounded-lg" />
+              <img src="/qr2.png" alt="CTA section" className="rounded-lg" />
             </div>
 
             {/* Text Section */}

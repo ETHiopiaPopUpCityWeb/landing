@@ -84,10 +84,10 @@ const Hero = () => {
               <HeroCard number={"50+"} title="Builders" />
             </motion.div>
             <motion.div variants={cardAnimation}>
-              <HeroCard number={"5 Days"} title="Hackathon " />
+              <HeroCard number={"5 Day"} title="Hackathon " />
             </motion.div>
             <motion.div variants={cardAnimation}>
-              <HeroCard number={"1 ETH"} title="Conference" />
+              <HeroCard number={"1st"} title="ETH Conference" />
             </motion.div>
           </div>
 
