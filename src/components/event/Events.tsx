@@ -13,7 +13,7 @@ const eventData = [
     title: "Conference",
     desc: "Join us for the 1st Ethereum Conference in Ethiopia, a landmark event exploring how Ethereum can scale across Africa to unlock its immense potential. Over two days, we’ll delve into the transformative power of decentralized technologies, showcasing African-led innovations and spotlighting the continent's role in shaping Ethereum’s future. Expect an inspiring mix of panel discussions, expert-led sessions, and community showcases—designed to connect developers, entrepreneurs, policymakers, and visionaries from across Africa and the global Ethereum ecosystem.",
     img: "/conf.jpg",
-    link: "/",
+    link: "https://lu.ma/hvmpj8k5",
   },
   {
     title: "Builders Residency",
@@ -25,7 +25,7 @@ const eventData = [
     title: "Hackathon",
     desc: "A hackathon is an intense, collaborative event where developers, designers, and innovators come together to solve problems, build projects, and create solutions using technology, in this case Ethereum and products in its ecosystem! This week-long experience combines expert-led workshops in Solidity development, interactive problem-solving sessions, and opportunities to push boundaries in real world blockchain innovation.From ideation to creation, participants will learn, code, and innovate together in a fast-paced environment that encourages creativity, skill-building, and community-building. By the end of the week, you'll leave with real-world accomplishments, new projects, and a stronger network to continue contributing to the Ethereum ecosystem.",
     img: "/hack2.jpg",
-    link: "/",
+    link: "https://lu.ma/20nminfw",
   },
 ];
 

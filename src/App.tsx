@@ -2,8 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import HomePage from "./pages/HomePage";
 import Footer from "./components/Footer";
-import EventPage from "./pages/EventPage";
-
+import WhyEthiopia from "./pages/WhyEthiopia";
 
 const App = () => {
   return (
@@ -13,7 +12,7 @@ const App = () => {
         <div className="flex-1 px-2">
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/events" element={<EventPage />} />
+            <Route path="/Understand-why-ETHiopia" element={<WhyEthiopia />} />
           </Routes>
         </div>
         <Footer />
