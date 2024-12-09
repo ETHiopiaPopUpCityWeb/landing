@@ -61,10 +61,8 @@ const Hero = () => {
                 builders and changemakers and every value aligned individual who
                 wants to have a voice in the future of the Global Majority.
                 Together, we will ideate, hack, and build the foundation of a
-                continuous ethereum movement in Ethiopia. <br />
-                <span className="bg-orange-200 px-3   rounded-lg">
-                  Join us between January 21st-February 21st
-                </span>
+                continuous ethereum movement in Ethiopia. Join us between
+                January 21st - February 21st, together we will ideate, hack ...
               </h4>
             </div>
           </div>
