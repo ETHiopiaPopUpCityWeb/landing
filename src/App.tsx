@@ -3,12 +3,14 @@ import Navbar from "./components/Navbar";
 import HomePage from "./pages/HomePage";
 import Footer from "./components/Footer";
 import WhyEthiopia from "./pages/WhyEthiopia";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   return (
     <BrowserRouter>
       <div className="min-h-screen max-w-screen flex flex-col">
         <Navbar />
+        <ScrollToTop />
         <div className="flex-1 px-2">
           <Routes>
             <Route path="/" element={<HomePage />} />

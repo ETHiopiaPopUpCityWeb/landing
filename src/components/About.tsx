@@ -6,7 +6,7 @@ const About = () => {
           <div className="relative flex items-end">
             <img
               className="lg:mx-0 mx-auto rounded-3xl object-cover h-80 lg:w-[38rem] lg:h-[25rem]"
-              src="/garden.jpg"
+              src="/au3.jpg"
               alt="about Us image"
             />
           </div>

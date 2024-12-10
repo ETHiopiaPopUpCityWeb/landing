@@ -15,17 +15,18 @@ const eventData = [
     img: "/science.jpg",
     link: "https://lu.ma/hvmpj8k5",
   },
-  {
-    title: "Builders Residency",
-    desc: "This is where Africa’s builders come together to share resources, network, and collaborate on shaping Ethereum’s future on the continent. Through focused ideation sessions, human incubation, and United Nations-style roundtable discussions, this builder residency is tailored to Africa’s unique community needs.",
-    img: "/lake.jpg",
-    link: "https://hackmd.io/wfQg8ON-TMWsYrT3xEqoDA?view",
-  },
+
   {
     title: "Hackathon",
     desc: "A hackathon is an intense, collaborative challenge where developers and innovators solve problems, build projects, and create real applications using blockchain technology, in this case Ethereum & its ecosystem. During this week-long experience, participants will attend expert-led workshops, and will leave with tangible accomplishments, new projects, and a network to keep innovating. ",
-    img: "/hack2.jpg",
+    img: "/hacks.webp",
     link: "https://lu.ma/20nminfw",
+  },
+  {
+    title: "Builders Residency",
+    desc: "This is where Africa’s builders come together to share resources, network, and collaborate on shaping Ethereum’s future on the continent. Through focused ideation sessions, human incubation, and United Nations-style roundtable discussions, this builder residency is tailored to Africa’s unique community needs.",
+    img: "/awassa.jpg",
+    link: "https://hackmd.io/wfQg8ON-TMWsYrT3xEqoDA?view",
   },
 ];
 
