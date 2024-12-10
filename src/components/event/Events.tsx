@@ -11,19 +11,19 @@ type EventCardProps = {
 const eventData = [
   {
     title: "Conference",
-    desc: "Join us for the 1st Ethereum Conference in Ethiopia, a landmark event exploring how Ethereum can scale across Africa to unlock its immense potential. Over two days, we’ll delve into the transformative power of decentralized technologies, showcasing African-led innovations and spotlighting the continent's role in shaping Ethereum’s future. Expect an inspiring mix of panel discussions, expert-led sessions, and community showcases—designed to connect developers, entrepreneurs, policymakers, and visionaries from across Africa and the global Ethereum ecosystem.",
-    img: "/conf.jpg",
+    desc: "Join us for the 1st Ethereum Conference in Ethiopia, a groundbreaking event on scaling Ethereum across Africa. Over two days, explore decentralized technologies, African-led innovations, and the continent’s pivotal role in Ethereum’s future through panels, expert sessions, and community showcases.",
+    img: "/science.jpg",
     link: "https://lu.ma/hvmpj8k5",
   },
   {
     title: "Builders Residency",
-    desc: "January 21-February 21st This is where the collaboration magic happens, builders on the continent often fight for the same ressources and have limited opportunities to network, learn from and collaborate with each other. This is a call to action for all the changemakers ready to strategize on what does ethereum look like on the continent with a focus on human incubation, ideation and united nations style round circle ideations. Curious to learn more about our full ETHiopia Pop Up evolving Agenda?",
+    desc: "This is where Africa’s builders come together to share resources, network, and collaborate on shaping Ethereum’s future on the continent. Through focused ideation sessions, human incubation, and United Nations-style roundtable discussions, this builder residency is tailored to Africa’s unique community needs.",
     img: "/lake.jpg",
     link: "https://hackmd.io/wfQg8ON-TMWsYrT3xEqoDA?view",
   },
   {
     title: "Hackathon",
-    desc: "A hackathon is an intense, collaborative event where developers, designers, and innovators come together to solve problems, build projects, and create solutions using technology, in this case Ethereum and products in its ecosystem! This week-long experience combines expert-led workshops in Solidity development, interactive problem-solving sessions, and opportunities to push boundaries in real world blockchain innovation.From ideation to creation, participants will learn, code, and innovate together in a fast-paced environment that encourages creativity, skill-building, and community-building. By the end of the week, you'll leave with real-world accomplishments, new projects, and a stronger network to continue contributing to the Ethereum ecosystem.",
+    desc: "A hackathon is an intense, collaborative challenge where developers and innovators solve problems, build projects, and create real applications using blockchain technology, in this case Ethereum & its ecosystem. During this week-long experience, participants will attend expert-led workshops, and will leave with tangible accomplishments, new projects, and a network to keep innovating. ",
     img: "/hack2.jpg",
     link: "https://lu.ma/20nminfw",
   },
@@ -33,7 +33,7 @@ const EventCard = ({ isDark, title, desc, img, link }: EventCardProps) => {
   return (
     <Link to={link}>
       <div
-        className={`transition-all duration-200 ${
+        className={`transition-all duration-200 hover:bg-orange-100 ${
           isDark
             ? "bg-neutral-800 hover:bg-neutral-900"
             : "bg-gray-100 hover:bg-neutral-100"
