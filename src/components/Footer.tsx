@@ -14,7 +14,7 @@ const Footer = () => {
           <ul className="flex flex-wrap items-center gap-4">
             <li>
               <a
-                href="https://x.com/ETHiopia"
+                href="https://x.com/ethiopia____?s=21&t=-bHfXrPK9kia9yCY3hKpjQ"
                 className="text-xs text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-none focus:decoration-2"
               >
                 <FaTwitter className="inline-block mr-1" />X (Twitter)
