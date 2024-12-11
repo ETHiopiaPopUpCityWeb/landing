@@ -39,7 +39,7 @@ const Navbar = () => {
         <div className="flex items-center gap-x-1 md:gap-x-2 ms-auto py-1 md:ps-6 md:order-3 md:col-span-3 mx-2">
           <Link
             to="https://lemonade.social/e/79ZruyB8"
-            className="px-6 py-3 bg-gradient-to-br from-green-900 via-yellow-900 to-red-900  rounded-full  text-white font-medium  hover:bg-gray-800 hover:text-lime-200 transition-all duration-300"
+            className="px-6 py-3 bg-gradient-to-tl from-pink-500 to-yellow-500   rounded-full  text-white font-medium  hover:bg-gray-800 hover:text-lime-200 transition-all duration-300"
           >
             Apply to Attend
           </Link>

@@ -49,7 +49,7 @@ const Hero = () => {
             <div className="w-1/2 max-sm:w-[100%]">
               <h1 className="text-4xl md:text-7xl font-bold leading-none text-sky-900">
                 Welcome to the{" "}
-                <span className="bg-gradient-to-br from-green-800 via-yellow-800 to-red-800 bg-clip-text text-transparent font-extrabold">
+                <span className="bg-gradient-to-tl from-pink-500 to-yellow-500 bg-clip-text text-transparent font-extrabold">
                   ETHiopia
                 </span>{" "}
                 Pop Up
@@ -61,8 +61,8 @@ const Hero = () => {
                 builders and changemakers and every value aligned individual who
                 wants to have a voice in the future of the Global Majority.
                 Together, we will ideate, hack, and build the foundation of a
-                continuous Ethereum  movement in Ethiopia. Join us between
-                January 21st - February 21st, together we will ideate, hack ...
+                continuous Ethereum movement in Ethiopia. Join us between
+                January 21st - February 21st.
               </h4>
             </div>
           </div>
