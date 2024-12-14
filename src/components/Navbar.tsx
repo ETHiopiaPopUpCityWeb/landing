@@ -2,6 +2,8 @@ import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 import { FiX } from "react-icons/fi";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
+import { FaTelegram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const navlinks = [
   {
@@ -43,6 +45,26 @@ const Navbar = () => {
           >
             Apply to Attend
           </Link>
+          <div className="flex flex-col md:flex-row items-center gap-4 md:gap-2 text-gray-800 justify-end md:ml-5">
+            <div className="flex gap-5 items-center">
+              <a
+                href="https://t.me/+AjDnr___sQNkMGNl"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sky-900 hover:text-sky-500 transition-transform transform hover:scale-110"
+              >
+                <FaTelegram size={22} />
+              </a>
+              <a
+                href="https://x.com/ethiopia____?s=21&t=-bHfXrPK9kia9yCY3hKpjQ"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sky-900 hover:text-sky-500 transition-transform transform hover:scale-110"
+              >
+                <FaXTwitter size={22} />
+              </a>
+            </div>
+          </div>
         </div>
 
         <div className="flex items-center justify-end md:hidden">
