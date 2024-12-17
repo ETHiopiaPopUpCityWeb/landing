@@ -1,3 +1,4 @@
+import CompanySection from "./Companies";
 import HeroCard from "./HeroCard";
 import { motion } from "framer-motion";
 
@@ -54,9 +55,10 @@ const Hero = () => {
                 </span>{" "}
                 Pop Up
               </h1>
+              <CompanySection />
             </div>
             <div className="w-1/2 max-sm:w-full flex items-center justify-center h-full">
-              <h4 className="max-sm:w-full max-w-lg text-lg m-auto text-gray-800">
+              <h4 className="max-sm:w-full max-w-lg text-base lg:text-lg m-auto text-gray-800">
                 This month-long experiment is a gathering for Africa’s Web3
                 builders and changemakers and every value aligned individual who
                 wants to have a voice in the future of the Global Majority.
