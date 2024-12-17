@@ -25,16 +25,16 @@ const eventData = [
   {
     title: "Builders Residency",
     desc: "This is where Africa’s builders come together to share resources, network, and collaborate on shaping Ethereum’s future on the continent. Through focused ideation sessions, human incubation, and United Nations-style roundtable discussions, this builder residency is tailored to Africa’s unique community needs.",
-    img: "/awassa.jpg",
-    link: "https://hackmd.io/wfQg8ON-TMWsYrT3xEqoDA?view",
+    img: "/res.jpg",
+    link: "https://tally.so/r/3qjPD7",
   },
 ];
 
 const EventCard = ({ isDark, title, desc, img, link }: EventCardProps) => {
   return (
-    <Link to={link}>
+    <div>
       <div
-        className={`transition-all duration-200 hover:bg-orange-100 ${
+        className={`transition-all duration-200 ${
           isDark
             ? "bg-neutral-800 hover:bg-neutral-900"
             : "bg-gray-100 hover:bg-neutral-100"
@@ -57,8 +57,17 @@ const EventCard = ({ isDark, title, desc, img, link }: EventCardProps) => {
         >
           <p>{desc}</p>
         </div>
+        <div>
+          <Link
+            className="bg-orange-800 hover:bg-orange-700 px-6 py-2 text-white  rounded-full inline-flex"
+            to={link}
+            type="button"
+          >
+            Apply Now
+          </Link>
+        </div>
       </div>
-    </Link>
+    </div>
   );
 };
 
