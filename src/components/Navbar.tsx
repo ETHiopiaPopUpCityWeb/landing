@@ -10,10 +10,10 @@ const navlinks = [
     href: "/Understand-why-ETHiopia",
     label: "Understand Why ETHiopia",
   },
-  {
-    href: "/lotto",
-    label: "ETHiopia Lottery",
-  },
+  // {
+  //   href: "/lotto",
+  //   label: "ETHiopia Lottery",
+  // },
 ];
 
 const Navbar = () => {

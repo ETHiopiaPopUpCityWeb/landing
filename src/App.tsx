@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import HomePage from "./pages/HomePage";
 import Footer from "./components/Footer";
 import WhyEthiopia from "./pages/WhyEthiopia";
-import EmbeddedNextApp from "./pages/EmbeddedNextApp";
+// import EmbeddedNextApp from "./pages/EmbeddedNextApp";
 import { useEffect } from "react";
 
 const App = () => {
@@ -35,7 +35,7 @@ const MainLayout = () => {
         {location.pathname !== "/lotto" && <Navbar />}
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/lotto" element={<EmbeddedNextApp />} />
+          {/* <Route path="/lotto" element={<EmbeddedNextApp />} /> */}
           <Route path="/Understand-why-ETHiopia" element={<WhyEthiopia />} />
         </Routes>
       </div>
