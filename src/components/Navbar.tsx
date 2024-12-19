@@ -10,6 +10,10 @@ const navlinks = [
     href: "/Understand-why-ETHiopia",
     label: "Understand Why ETHiopia",
   },
+  {
+    href: "/lotto",
+    label: "ETHiopia Lottery",
+  },
 ];
 
 const Navbar = () => {
@@ -85,7 +89,7 @@ const Navbar = () => {
             isMenuOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
           } md:block transition-all duration-500 ease-in-out overflow-hidden md:max-h-none md:opacity-100 basis-full grow md:w-auto md:basis-auto md:order-2 md:col-span-6`}
         >
-          <div className="flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:justify-center md:items-center md:gap-y-0 md:gap-x-14 md:mt-0">
+          <div className="flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:justify-center md:items-center md:gap-y-0 md:gap-x-8 md:mt-0">
             {navlinks.map((item, index) => (
               <div key={index}>
                 <Link
