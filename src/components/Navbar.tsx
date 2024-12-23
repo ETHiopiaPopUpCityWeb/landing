@@ -10,6 +10,10 @@ const navlinks = [
     href: "/Understand-why-ETHiopia",
     label: "Understand Why ETHiopia",
   },
+  {
+    href: "/blogs",
+    label: "FAQs",
+  },
   // {
   //   href: "/lotto",
   //   label: "ETHiopia Lottery",
@@ -36,7 +40,7 @@ const Navbar = () => {
             <img
               src="/logo.jpg"
               alt="Logo"
-              className="h-14 w-14 rounded-full"
+              className="h-12 w-12 rounded-full"
             />
             <span className="hidden md:block font-bold">ETHiopia</span>
           </Link>

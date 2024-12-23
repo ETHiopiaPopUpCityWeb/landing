@@ -5,6 +5,8 @@ import Footer from "./components/Footer";
 import WhyEthiopia from "./pages/WhyEthiopia";
 // import EmbeddedNextApp from "./pages/EmbeddedNextApp";
 import { useEffect } from "react";
+import Blog from "./pages/Blog";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   return (
@@ -32,11 +34,13 @@ const MainLayout = () => {
   return (
     <div className="min-h-screen max-w-screen flex flex-col">
       <div className="flex-1">
+        <ScrollToTop />
         {location.pathname !== "/lotto" && <Navbar />}
         <Routes>
           <Route path="/" element={<HomePage />} />
           {/* <Route path="/lotto" element={<EmbeddedNextApp />} /> */}
           <Route path="/Understand-why-ETHiopia" element={<WhyEthiopia />} />
+          <Route path="/blogs" element={<Blog />} />
         </Routes>
       </div>
       <Footer />

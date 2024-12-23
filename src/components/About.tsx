@@ -15,7 +15,7 @@ const About = () => {
             <div className="flex-col justify-end items-start gap-4 flex">
               <h2 className="text-4xl lg:text-7xl font-bold text-gray-900 leading-tight">
                 Why{" "}
-                <span className="bg-gradient-to-br from-green-800 via-yellow-800 to-red-800 bg-clip-text text-transparent font-extrabold">
+                <span className="bg-gradient-to-tl from-pink-500 to-yellow-500  bg-clip-text text-transparent font-extrabold">
                   Ethiopia
                 </span>{" "}
               </h2>
