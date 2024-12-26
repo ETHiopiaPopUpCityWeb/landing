@@ -4,9 +4,9 @@ import HomePage from "./pages/HomePage";
 import Footer from "./components/Footer";
 import WhyEthiopia from "./pages/WhyEthiopia";
 import EmbeddedNextApp from "./pages/EmbeddedNextApp";
-import { useEffect } from "react";
 import Blog from "./pages/Blog";
 import ScrollToTop from "./components/ScrollToTop";
+import { useEffect } from "react";
 
 const App = () => {
   return (
