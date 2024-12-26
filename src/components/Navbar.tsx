@@ -14,10 +14,10 @@ const navlinks = [
     href: "/blogs",
     label: "FAQs",
   },
-  // {
-  //   href: "/lotto",
-  //   label: "ETHiopia Lottery",
-  // },
+  {
+    href: "/lotto",
+    label: "ETHiopia Lottery",
+  },
 ];
 
 const Navbar = () => {
