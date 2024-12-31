@@ -83,7 +83,7 @@ const Hero = () => {
         >
           <div className="flex flex-col justify-center max-sm:flex-row gap-3 divide-y">
             <motion.div variants={cardAnimation}>
-              <HeroCard number={"50+"} title="Builders" />
+              <HeroCard number={"31 Day"} title=" Education" />
             </motion.div>
             <motion.div variants={cardAnimation}>
               <HeroCard number={"5 Day"} title="Hackathon " />
