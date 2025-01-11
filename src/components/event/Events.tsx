@@ -88,6 +88,7 @@ const Events = () => {
           <div className="mt-8 grid gap-8 px-5 max-sm:grid-cols-1 grid-cols-3 ">
             {eventData.map((item) => (
               <EventCard
+              key={item.title}
                 desc={item.desc}
                 img={item.img}
                 title={item.title}

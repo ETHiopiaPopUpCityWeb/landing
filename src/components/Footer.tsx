@@ -3,7 +3,7 @@ import { RiBookLine } from "react-icons/ri";
 
 const Footer = () => {
   return (
-    <footer className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <footer className="w-full max-w-[85rem] mx-auto px-4 sm:px-0 lg:px-0">
       <div className="py-6 border-t border-gray-200">
         <div className="flex flex-wrap justify-between items-center gap-2">
           {/* Copyright Section */}

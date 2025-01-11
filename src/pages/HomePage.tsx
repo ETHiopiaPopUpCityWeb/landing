@@ -5,11 +5,9 @@ import Hero from "../components/Hero";
 // import MainEvent from "../components/MainEvent";
 import Media from "../components/Media";
 import Services from "../components/Services";
-
+import Voluteer from "../components/Voluteer";
 
 const HomePage = () => {
-
-
   return (
     <div className="w-full">
       {/* <MainEvent /> */}
@@ -19,6 +17,7 @@ const HomePage = () => {
       <Media />
       <Events />
       <Ecommerce />
+      <Voluteer />
       {/* <Gallery /> */}
     </div>
   );
