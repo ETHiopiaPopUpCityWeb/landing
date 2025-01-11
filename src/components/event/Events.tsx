@@ -19,7 +19,7 @@ const eventData = [
   {
     title: "Hackathon",
     desc: "A hackathon is an intense, collaborative challenge where developers and innovators solve problems, build projects, and create real applications using blockchain technology, in this case Ethereum & its ecosystem. During this week-long experience, participants will attend expert-led workshops, and will leave with tangible accomplishments, new projects, and a network to keep innovating. ",
-    img: "/hacks.webp",
+    img: "/hack.jpg",
     link: "https://lu.ma/20nminfw",
   },
   {

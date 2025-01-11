@@ -8,7 +8,9 @@ const Footer = () => {
         <div className="flex flex-wrap justify-between items-center gap-2">
           {/* Copyright Section */}
           <div>
-            <p className="text-xs text-gray-600">© 2024 ETHiopia.</p>
+            <p className="text-xs text-gray-600">
+            © {new Date().getFullYear()} ETHiopia.
+            </p>
           </div>
           {/* Navigation Links */}
           <ul className="flex flex-wrap items-center gap-4">
