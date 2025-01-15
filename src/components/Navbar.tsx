@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 import { FiX } from "react-icons/fi";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
-import { FaTelegram } from "react-icons/fa";
+import { FaLinkedin, FaTelegram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 const navlinks = [
@@ -70,6 +70,14 @@ const Navbar = () => {
                 className="text-sky-900 hover:text-sky-500 transition-transform transform hover:scale-110"
               >
                 <FaXTwitter size={22} />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/ethiopia-eth/about/?viewAsMember=true"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sky-900 hover:text-sky-500 transition-transform transform hover:scale-110"
+              >
+                <FaLinkedin size={22} />
               </a>
             </div>
           </div>
