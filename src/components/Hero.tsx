@@ -110,16 +110,6 @@ const Hero = () => {
               alt="ETHiopia Cityscape"
               className="w-full h-full object-cover rounded-l-3xl"
             />
-            <img
-              src="/pic1.jpg"
-              alt="ETHiopia Cityscape"
-              className="w-full h-full object-cover rounded-l-3xl"
-            />
-            <img
-              src="/pic2.jpg"
-              alt="ETHiopia Cityscape"
-              className="w-full h-full object-cover rounded-l-3xl"
-            />
           </motion.div>
         </motion.div>
       </motion.div>
