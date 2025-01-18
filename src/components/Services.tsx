@@ -3,7 +3,7 @@ import ServiceCard from "./ServiceCard";
 const Services = () => {
   return (
     <div className="my-14">
-      <div className="flex justify-center">
+      <div className="flex justify-center px-2">
         <div className="p-4 lg:p-8 py-8  lg:py-14 bg-sky-950 max-w-[83rem] rounded-3xl max-sm:w-full flex flex-col items-start gap-6 shadow-lg">
           {/* Vision Tagline */}
           <div>

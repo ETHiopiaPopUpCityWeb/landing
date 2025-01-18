@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 import { FiX } from "react-icons/fi";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
-import { FaTelegram } from "react-icons/fa";
+import { FaLinkedin, FaTelegram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 const navlinks = [
@@ -49,7 +49,7 @@ const Navbar = () => {
         <div className="flex items-center gap-x-1 md:gap-x-2 ms-auto py-1 md:ps-6 md:order-3 md:col-span-3 mx-2">
           <Link
             to="https://tally.so/r/3lVADW"
-            className="px-6 py-3 bg-gradient-to-tr from-pink-500 to-yellow-500  rounded-full  text-white font-medium  hover:bg-gray-800 hover:text-lime-200 transition-all duration-300"
+            className="hidden md:block px-6 py-3 bg-gradient-to-tr from-pink-500 to-yellow-500  rounded-full  text-white font-medium  hover:bg-gray-800 hover:text-lime-200 transition-all duration-300"
           >
             Apply to Attend
           </Link>
@@ -70,6 +70,14 @@ const Navbar = () => {
                 className="text-sky-900 hover:text-sky-500 transition-transform transform hover:scale-110"
               >
                 <FaXTwitter size={22} />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/ethiopia-eth/about/?viewAsMember=true"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sky-900 hover:text-sky-500 transition-transform transform hover:scale-110"
+              >
+                <FaLinkedin size={22} />
               </a>
             </div>
           </div>
