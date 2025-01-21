@@ -1,4 +1,5 @@
 import About from "../components/About";
+import CompanyLogos from "../components/Companies";
 import Ecommerce from "../components/Ecommerce";
 import Events from "../components/event/Events";
 import Hero from "../components/Hero";
@@ -12,6 +13,7 @@ const HomePage = () => {
     <div className="w-full">
       {/* <MainEvent /> */}
       <Hero />
+      <CompanyLogos />
       <Services />
       <About />
       <Media />

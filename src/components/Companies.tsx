@@ -1,20 +1,21 @@
-const companies = ["/2.png", "/5.jpg", "/pic1.jpg", "/pic2.jpg"];
+const companies = ["/2.png", "/5.jpg", "/Lisk.svg", "/pic1.jpg", "/pic2.jpg"];
 
-const CompanySection = () => {
+const CompanyLogos = () => {
   return (
-    <section className="py-4">
-      <div className="max-w-7xl">
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5  items-start">
-          {companies.map((company, index) => (
-            <div
-              key={index}
-              className="flex justify-center items-end py-2 bg-white rounded-lg transition-shadow"
-            >
-              <img
-                src={company}
-                alt={"Company Image"}
-                className="h-14 md፡h-20 object-contain"
-              />
+    <section className="py-10">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="mb-10 text-center">
+          <span className="text-orange-600 text-center font-medium mb-4 block">
+            OUR PARTNERS
+          </span>
+          <h1 className="text-4xl text-sky-900 text-center font-bold">
+            We work with the best partners
+          </h1>
+        </div>
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-3  xl:grid-cols-6">
+          {companies.map((company) => (
+            <div key={company} className="">
+              <img className="w-32 h-20" src={company} alt="" />
             </div>
           ))}
         </div>
@@ -23,4 +24,4 @@ const CompanySection = () => {
   );
 };
 
-export default CompanySection;
+export default CompanyLogos;
