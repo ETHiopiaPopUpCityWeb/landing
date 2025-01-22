@@ -13,7 +13,7 @@ const partners = [
 
 const CompanyLogos = () => {
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-16 ">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="mb-12 text-center">
@@ -26,14 +26,14 @@ const CompanyLogos = () => {
         </div>
 
         {/* Sponsors */}
-        <div className="grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-6 items-center justify-center mb-12 w-full mx-auto">
+        <div className="w-full flex flex-wrap justify-center items-end gap-6 pb-4">
           {sponsers.map((company) => (
             <div
               key={company}
-              className="flex items-center justify-center p-4 bg-white  rounded-lg"
+              className="flex items-center justify-center p-4   rounded-lg"
             >
               <img
-                className="max-h-20 object-contain"
+                className="max-h-16 w-52 object-contain"
                 src={company}
                 alt="Sponsor logo"
               />
@@ -42,14 +42,14 @@ const CompanyLogos = () => {
         </div>
 
         {/* Partners */}
-        <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-9 items-center justify-center w-full mx-auto">
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-9 items-center justify-center w-full mx-auto">
           {partners.map((company) => (
             <div
               key={company}
-              className="flex items-center justify-center p-3 bg-white  rounded-lg"
+              className="flex items-center justify-center p-3   rounded-lg"
             >
               <img
-                className="max-h-12 object-contain"
+                className="max-h-14 object-contain"
                 src={company}
                 alt="Partner logo"
               />
