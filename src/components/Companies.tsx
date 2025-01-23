@@ -1,4 +1,11 @@
-const sponsers = ["/ethereum.png", "/Lisk.svg"];
+const sponsers = [
+  "/ethereum.png",
+  "/Lisk.svg",
+  "/pic20.svg",
+  "/pic24.png",
+  "pic22.png",
+  "/pic25.png",
+];
 const partners = [
   "/2.png",
   "/5.jpg",
@@ -18,15 +25,15 @@ const CompanyLogos = () => {
         {/* Header */}
         <div className="mb-12 text-center">
           <span className="text-orange-600 font-medium uppercase tracking-wide">
-            Our Partners
+            Our Sponsers
           </span>
           <h1 className="mt-2 text-4xl font-bold text-sky-900">
-            We work with the best partners
+            We collaborate with the finest sponsors.
           </h1>
         </div>
 
         {/* Sponsors */}
-        <div className="w-full flex flex-wrap justify-center items-end gap-6 pb-4">
+        <div className="grid grid-cols-2  sm:grid-cols-3 lg:grid-cols-6  gap-6 pb-4">
           {sponsers.map((company) => (
             <div
               key={company}
@@ -39,6 +46,12 @@ const CompanyLogos = () => {
               />
             </div>
           ))}
+        </div>
+
+        <div className="my-12 text-center">
+          <span className="text-orange-600 font-medium uppercase tracking-wide">
+            Our Partners
+          </span>
         </div>
 
         {/* Partners */}
