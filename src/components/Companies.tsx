@@ -4,7 +4,7 @@ const sponsers = [
   "/pic20.svg",
   "/pic24.png",
   "pic22.png",
-  "/pic25.png",
+  "/pic251.png",
 ];
 const partners = [
   "/2.png",
@@ -24,12 +24,9 @@ const CompanyLogos = () => {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="mb-12 text-center">
-          <span className="text-orange-600 font-medium uppercase tracking-wide">
-            Our Sponsers
+          <span className="text-orange-600 font-medium text-base md:text-lg uppercase tracking-wide">
+            Our Sponsors
           </span>
-          <h1 className="mt-2 text-4xl font-bold text-sky-900">
-            We collaborate with the finest sponsors.
-          </h1>
         </div>
 
         {/* Sponsors */}
@@ -45,11 +42,11 @@ const CompanyLogos = () => {
                 alt="Sponsor logo"
               />
             </div>
-          ))}
+          ))} 
         </div>
 
         <div className="my-12 text-center">
-          <span className="text-orange-600 font-medium uppercase tracking-wide">
+          <span className="text-orange-600 font-medium uppercase tracking-wide text-base md:text-lg">
             Our Partners
           </span>
         </div>
