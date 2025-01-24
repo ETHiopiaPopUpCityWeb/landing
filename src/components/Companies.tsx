@@ -2,20 +2,20 @@ const sponsers = [
   "/ethereum.png",
   "/Lisk.svg",
   "/pic20.svg",
-  "/pic24.png",
+  "/pic26.png",
   "pic22.png",
   "/pic251.png",
 ];
 const partners = [
   "/2.png",
   "/5.jpg",
-  "/pic1.jpg",
+  "/pic1.png",
   "/pic2.jpg",
   "/MGS.jpg",
   "/nounsdao.png",
   "/safaridao.png",
   "/Women Tech Makers.jpg",
-  "/Xerxis.JPG",
+  "/Xerxis.png",
 ];
 
 const CompanyLogos = () => {
