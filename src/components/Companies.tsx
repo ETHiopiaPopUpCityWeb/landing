@@ -16,6 +16,7 @@ const partners = [
   "/safaridao.png",
   "/Women Tech Makers.jpg",
   "/Xerxis.png",
+  "/pic30.svg",
 ];
 
 const CompanyLogos = () => {
@@ -42,7 +43,7 @@ const CompanyLogos = () => {
                 alt="Sponsor logo"
               />
             </div>
-          ))} 
+          ))}
         </div>
 
         <div className="my-12 text-center">
@@ -52,7 +53,7 @@ const CompanyLogos = () => {
         </div>
 
         {/* Partners */}
-        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-9 items-center justify-center w-full mx-auto">
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-10 items-center justify-center w-full mx-auto">
           {partners.map((company) => (
             <div
               key={company}
