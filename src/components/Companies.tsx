@@ -3,8 +3,9 @@ const sponsers = [
   "/Lisk.svg",
   "/pic20.svg",
   "/pic26.png",
-  "pic22.png",
   "/pic251.png",
+  "/pik40.svg",
+  "/pik42.png",
 ];
 const partners = [
   "/2.png",
@@ -31,7 +32,7 @@ const CompanyLogos = () => {
         </div>
 
         {/* Sponsors */}
-        <div className="grid grid-cols-2  sm:grid-cols-3 lg:grid-cols-6  gap-6 pb-4">
+        <div className="grid grid-cols-2  sm:grid-cols-3 lg:grid-cols-7  gap-6 pb-4">
           {sponsers.map((company) => (
             <div
               key={company}
