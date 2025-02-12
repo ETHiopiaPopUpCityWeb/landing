@@ -6,6 +6,7 @@ import Hero from "../components/Hero";
 // import MainEvent from "../components/MainEvent";
 import Media from "../components/Media";
 import Services from "../components/Services";
+import Speakers from "../components/Speakers";
 import Voluteer from "../components/Voluteer";
 
 const HomePage = () => {
@@ -15,6 +16,7 @@ const HomePage = () => {
       <Hero />
       <CompanyLogos />
       <Services />
+      <Speakers />
       <About />
       <Media />
       <Events />
