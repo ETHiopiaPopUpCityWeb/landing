@@ -3,7 +3,6 @@
 
 const speakersData = [
   {
-    id: 1,
     name: "Samuel Arogbonlo",
     role: "Senior Blockchain Infrastructure Engineer",
     image: "/sp1.png",
@@ -11,7 +10,6 @@ const speakersData = [
       "Talks: Beyond Validators: Non-Traditional Infrastructure Roles In Ethereum",
   },
   {
-    id: 2,
     name: "Isaac Newton Acquah",
     role: "National Project Coordinator, International Trade Centre, Tech Sector Ghana FTW DOA Founding Member, The Innovation Spark Founder",
     image: "/sp2.png",
@@ -19,7 +17,6 @@ const speakersData = [
       "A Government Built on Trust: How Blockchain Can Redefine Governance in Africa",
   },
   {
-    id: 3,
     name: "Hugo Mathecowsk",
     role: "Founder at Tool for the Commons, a55",
     image: "/sp3.png",
@@ -27,11 +24,44 @@ const speakersData = [
       "From geopolitics of nation states to technopolitics of network states - how humanity is transitioning from maps printers and guns to software, crypto and smart contracts to govern its civilization.",
   },
   {
-    id: 4,
     name: "@PauChan23",
     role: "Developer Relations @Wormhole",
     image: "/sp4.png",
     description: "Builder Residency Speaker",
+  },
+
+  {
+    name: "Clement Petrona ",
+    // role: "Developer Relations @Wormhole",
+    image: "/cle.jpg",
+
+    description:
+      "Singularity net, ETHICAL AI DEVELOPMENT & THE SINGULARITY NET AI MARKETPLACE",
+  },
+
+  {
+    name: "Daniel Aseffa ",
+    // role: "Developer Relations @Wormhole",
+    image: "/dan.png",
+    description: "Economic Laws and policies regarding blockchain, Crypto, AI",
+  },
+
+  {
+    name: "Simon",
+    // role: "Blockchain Enthusiast",
+    description: "Setting the tone in tech for human ideologies",
+  },
+  {
+    name: "Abena ",
+    // role: "Developer Relations @Wormhole",
+    description: "ETH-Acra",
+  },
+
+  {
+    name: "Una Wang ",
+    // role: "Developer Relations @Wormhole",
+    description:
+      "Solar punk, Lunar punk, Zuitzerland, Towards post-capitalism solarpunk city & place-making - Self-owned houses onchain, Solar Punk/Lunar Punk + Zuitzerland",
   },
 ];
 
@@ -47,20 +77,20 @@ const Speakers = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {speakersData.map((speaker) => (
+        {speakersData.map((speaker, idx) => (
           <div
-            key={speaker.id}
+            key={idx}
             className="flex flex-col items-center text-center bg-white shadow-sm rounded-2xl p-6 border border-gray-200/80 hover:shadow-md transition-all"
           >
             <img
               className="rounded-full w-24 h-24 border-4 border-orange-400"
-              src={speaker.image}
+              src={speaker?.image || "/user.jpg"}
               alt={speaker.name}
             />
             <h3 className="mt-4 text-xl font-semibold text-gray-800">
               {speaker.name}
             </h3>
-            <p className="text-xs text-sky-900 font-medium">{speaker.role}</p>
+            <p className="text-xs text-sky-900 font-medium">{speaker?.role}</p>
             <p className="mt-3 text-gray-500 text-sm">{speaker.description}</p>
             {/* <div className="mt-4 flex space-x-4">
               <a
