@@ -40,6 +40,13 @@ const speakersData = [
   },
 
   {
+    name: "Santiago",
+    image: "/san.jpg",
+    // role: "Developer Relations @Wormhole",
+    description: "About Lisk ecosystem",
+  },
+
+  {
     name: "Daniel Aseffa ",
     // role: "Developer Relations @Wormhole",
     image: "/dan.png",
@@ -55,6 +62,24 @@ const speakersData = [
     name: "Abena ",
     // role: "Developer Relations @Wormhole",
     description: "ETH-Acra",
+  },
+  {
+    name: "Samuel Arogbonolo",
+    // role: "Developer Relations @Wormhole",
+    description:
+      "Beyond Validators, Non-Traditional Infrastructure Roles In Ethereum",
+  },
+
+  {
+    name: "Ayo",
+    // role: "Developer Relations @Wormhole",
+    description: "Web3 Bridge",
+  },
+
+  {
+    name: "Bekka",
+    // role: "Developer Relations @Wormhole",
+    description: "Polkadot",
   },
 
   {
