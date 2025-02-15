@@ -86,7 +86,7 @@ const speakersData = [
     // role: "Developer Relations @Wormhole",
     image: "/kemal.jpg",
 
-    description: "Polkadot",
+    description: "Untapped power of the African",
   },
 
   {
