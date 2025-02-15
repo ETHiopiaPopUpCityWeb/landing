@@ -52,42 +52,60 @@ const speakersData = [
     image: "/dan.png",
     description: "Economic Laws and policies regarding blockchain, Crypto, AI",
   },
+  {
+    name: "Una Wang ",
+    // role: "Developer Relations @Wormhole",
+    image: "/unu.jpg",
+
+    description:
+      "Solar punk, Lunar punk, Zuitzerland, Towards post-capitalism solarpunk city & place-making - Self-owned houses onchain, Solar Punk/Lunar Punk + Zuitzerland",
+  },
 
   {
     name: "Simon",
     // role: "Blockchain Enthusiast",
+
     description: "Setting the tone in tech for human ideologies",
   },
   {
     name: "Abena ",
+    image: "/abena.jpg",
+
     // role: "Developer Relations @Wormhole",
     description: "ETH-Acra",
   },
   {
     name: "Samuel Arogbonolo",
     // role: "Developer Relations @Wormhole",
+
     description:
       "Beyond Validators, Non-Traditional Infrastructure Roles In Ethereum",
+  },
+  {
+    name: "Kamal Johnson",
+    // role: "Developer Relations @Wormhole",
+    image: "/kemal.jpg",
+
+    description: "Polkadot",
   },
 
   {
     name: "Ayo",
     // role: "Developer Relations @Wormhole",
+    image: "/ayo.jpg",
+
     description: "Web3 Bridge",
   },
 
   {
     name: "Bekka",
     // role: "Developer Relations @Wormhole",
+    image: "/bekka.jpg",
+
     description: "Polkadot",
   },
 
-  {
-    name: "Una Wang ",
-    // role: "Developer Relations @Wormhole",
-    description:
-      "Solar punk, Lunar punk, Zuitzerland, Towards post-capitalism solarpunk city & place-making - Self-owned houses onchain, Solar Punk/Lunar Punk + Zuitzerland",
-  },
+  
 ];
 
 const Speakers = () => {
