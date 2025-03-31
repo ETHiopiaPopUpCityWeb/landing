@@ -15,9 +15,10 @@ This report isn’t just numbers and metrics—it’s a love letter to everyone 
 
 _Because some moments can’t be captured in words._
 
-| ![ETHiopia Pop-Up City](report2.jpg) | ![ETHiopia Pop-Up City](report4.jpg) |
+| ![ETHiopia Pop-Up City](report2.jpg) | ![ETHiopia Pop-Up City](report3.jpg) |
 | ------------------------------------ | ------------------------------------ |
-| ![ETHiopia Pop-Up City](report5.jpg) | ![ETHiopia Pop-Up City](report6.jpg) |
+| ![ETHiopia Pop-Up City](report4.jpg) | ![ETHiopia Pop-Up City](report5.jpg) |
+| ![ETHiopia Pop-Up City](report6.jpg) | ![ETHiopia Pop-Up City](report7.jpg) |
 
 ## **📊 ETHiopia in Numbers: A Snapshot**
 
