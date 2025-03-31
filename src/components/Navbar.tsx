@@ -15,8 +15,8 @@ const navlinks = [
     label: "FAQs",
   },
   {
-    href: "/lotto",
-    label: "ETHiopia Lottery",
+    href: "/event",
+    label: "Event",
   },
 ];
 
@@ -47,12 +47,12 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-center gap-x-1 md:gap-x-2 ms-auto py-1 md:ps-6 md:order-3 md:col-span-3 mx-2">
-          <Link
+          {/* <Link
             to="https://tally.so/r/3lVADW"
             className="hidden md:block px-6 py-3 bg-gradient-to-tr from-pink-500 to-yellow-500  rounded-full  text-white font-medium  hover:bg-gray-800 hover:text-lime-200 transition-all duration-300"
           >
             Apply to Attend
-          </Link>
+          </Link> */}
           <div className="flex flex-col md:flex-row items-center gap-4 md:gap-2 text-gray-800 justify-end md:ml-5">
             <div className="flex gap-5 items-center">
               <a

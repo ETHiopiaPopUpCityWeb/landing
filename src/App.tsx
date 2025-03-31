@@ -7,6 +7,7 @@ import EmbeddedNextApp from "./pages/EmbeddedNextApp";
 import Blog from "./pages/Blog";
 import ScrollToTop from "./components/ScrollToTop";
 import { useEffect } from "react";
+import Event from "./pages/Event";
 
 const App = () => {
   return (
@@ -41,6 +42,7 @@ const MainLayout = () => {
           <Route path="/lotto" element={<EmbeddedNextApp />} />
           <Route path="/Understand-why-ETHiopia" element={<WhyEthiopia />} />
           <Route path="/blogs" element={<Blog />} />
+          <Route path="/event" element={<Event />} />
         </Routes>
       </div>
       <Footer />
