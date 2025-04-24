@@ -35,17 +35,17 @@ _Because some moments can’t be captured in words._
 
 ## **📊 ETHiopia in Numbers: A Snapshot**
 
-| **Category**                                                                        | **Number**                                                     |
-| ----------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| **African Countries Represented**                                                   | 8 🇪🇹🇨🇲🇹🇬🇬🇭🇳🇬🇰🇪🇺🇬🇪🇷 _+ our other frens from around the world_ 🫶 |
-| **Builders in Residency**                                                           | 56 brilliant minds, living and co-working under one roof       |
-| **Community Partners**                                                              | 9 special organizations that supported our vision              |
-| **Sponsors**                                                                        | 11 who made this dream become reality                          |
-| **Workshops, Solidity Sessions and Talks**                                          | 40+                                                            |
-| **Demo Days**                                                                       | 3 (+ countless practice over 3 weeks)                          |
-| **[Total Hackers](https://dorahacks.io/hackathon/ethiopiabamhackathon/buidl)**      | 105                                                            |
-| **[Hackathon Projects](https://dorahacks.io/hackathon/ethiopiabamhackathon/buidl)** | 38                                                             |
-|                                                                                     |
+| **Category**                                                                    | **Number**                                                                        |
+| ------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| African Countries Represented                                                   | 8 🇪🇹🇨🇲🇹🇬🇬🇭🇳🇬🇰🇪🇺🇬🇪🇷 _+ our other frens from around the world_ 🫶 🇫🇷🇵🇹🇺🇸🇹🇭🇨🇴🇨🇦🇳🇿🇦🇷🇨🇳 |
+| Builders in Residency                                                           | 57 brilliant minds, living and co-working under one roof                          |
+| Community Partners                                                              | 11 special organizations that supported our vision                                |
+| Workshops, Solidity Sessions and Talks                                          | 40+                                                                               |
+| Demo Days                                                                       | 3 (+ countless practice over 3 weeks)                                             |
+| [Total Hackers ](https://dorahacks.io/hackathon/ethiopiabamhackathon/buidl)     | 105                                                                               |
+| [Hackathon Projects](https://dorahacks.io/hackathon/ethiopiabamhackathon/buidl) | 38                                                                                |
+| [ETHiopia Conferernce Attendees](https://lu.ma/hvmpj8k5)                        | 144                                                                               |
+| [ETHiopia X growth]()                                                           | 956                                                                               |
 
 ### **🚀 A Special Thank You**
 
@@ -134,11 +134,13 @@ We’re not done. Not even close.
 
 ETHiopia showed us that **Africa doesn’t need permission to innovate.** We’re already doing it.
 
-The ETHiopia working team consisted of many exceptional leaders from across the ecosystem. Stay connected with the team! Mearaf from Xerxis, Diane & Simon from BAM, Pablo & Koko from the African Onchain Collective, and Manon from the mu. With many commited contributors who made working towards ETHiopia feel possible, shoutout to Solomon, Samia, Nana, Akosua, Nardos, Dawit, Keziah, Sun and Santiago, we appreciate you!
+The ETHiopia working team consisted of many exceptional leaders from across the ecosystem. Stay connected with the team! [Mearaf](https://x.com/MEARAFTADEWOS) from Xerxis, [Diane](https://x.com/dianealmaze) & [Simon](https://x.com/0xpolymath_eth) from BAM, [Pablo](https://x.com/africanbuilder_) (@africanbuilder) & [Koko](https://x.com/kokebsolomon) (@kokocares) from the African Onchain Collective, and [Manon](https://x.com/fst_manon74) from the mu. In addition to many commited contributors who made working towards ETHiopia feel possible, shoutout to Solomon, Samia, Nana, Akosua, Dawit, Nardos, Keziah, Sun and Santiago, we appreciate you!
 
-Liked any of the designs? Contact Wanjiku
+Liked any of the designs? Contact Wanjiku (@MissyMimi1)
 
-Liked any of the photos? Contact Fidesio from HustleYangu
+Liked any of the photos? Contact [Fidesio](https://x.com/fidesio_G) from HustleYangu (@FidesioG)
+
+![ETHiopia Pop-Up City](report6.jpg)
 
 ---
 
