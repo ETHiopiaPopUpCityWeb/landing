@@ -1,9 +1,22 @@
 # **ETHiopia Pop-Up City: A Journey of Innovation & Community**
 
-![ETHiopia Pop-Up City](report1.png)  
-_Caption: Builders, mentors, and dreamers coming together to shape the future of Web3 in Africa._
+![ETHiopia Pop-Up City](report1.png)
 
 ## **💫 A Moment to Reflect**
+
+The idea of Eth-iopia was conceived in March, 2023 when after Mearaf met Ethereum leaders and had an elaborate decision with Aya Miaguchi, Songyi, and Yoseph on one evening and Vitalic in one afternoon, in Addia Ababa, Ethiopia.
+
+Ethi-iopia emerged out of Xerxis, the first Etherem community in Ethiopia. And the name ETH-iopia initially was sugested by Anna Kumi, a person overseeing our grant proposal and who had interviewed Mearaf during the interview (hope records are kept ;) ) and a couple others also casually suggested the ETHiopia on different occasions.
+
+Ethiopia was part of Xerxis as hackathon and conference event side of the program. But for the sake of categorization and priority, it had to be splited.
+
+The expansion of ETHiopia to a pop up city, emerged out of one chill morning in breakfast table in Fumba town, Zanzibar, Kewetu Kwenue Chill, in June, 2024 with Mearaf and Kyle talking and ideating, as Kyle confidently suggested it can be popup city and pointing to practical things, it quickly developed in to a plan.
+
+Mearaf started to follow through with asking the advices of Zanzalu organizers (Eva Klaus, Chance and Noah Chon Lee), writing idea notes (and latter researching and event article) and started inviting people to join from the ones that are near already, which ended up contributing and inviting others. Chance latter help us a lot by (personally) recommending many things including the speakers Una Wang of Zuitherland who endup giving scholarships to some of our community members.
+
+A fun fact on naming, different thoughts of names like ETH2 (ETH square), ZuzalETH, and Zuthopia were in the name pool too. We all remember the movie Uthopia 😅
+
+A bit of a background to tell our stories as we lived it and to remember who was there for us and those who are not present to harvest their fair credits. Anna Kumi, Chance, Noah, Kyle, Eva and all the friends we met after who help in different ways like Antoine Woody many thanks for the kind contribution.
 
 What began as an ambitious idea turned into a living, breathing community of collaboration, where strangers became co-founders, where twitter friends became IRL frens, mentors became lifelong guides, and ideas once written in notebooks found their way into working smart contracts. ETHiopia was never just **_one_** event—it was an optimistic community of changemakers that looked for ways to connect with one another.
 
@@ -121,9 +134,10 @@ We’re not done. Not even close.
 
 ETHiopia showed us that **Africa doesn’t need permission to innovate.** We’re already doing it.
 
-The ETHiopia working team consisted of many exceptional leaders from across the ecosystem. Stay connected with the team! Mearaf from Xerxis, Diane & Simon from BAM, Pablo & Koko from the African Onchain Collective, Manon from the mu,
+The ETHiopia working team consisted of many exceptional leaders from across the ecosystem. Stay connected with the team! Mearaf from Xerxis, Diane & Simon from BAM, Pablo & Koko from the African Onchain Collective, and Manon from the mu. With many commited contributors who made working towards ETHiopia feel possible, shoutout to Solomon, Samia, Nana, Akosua, Nardos, Dawit, Keziah, Sun and Santiago, we appreciate you!
 
 Liked any of the designs? Contact Wanjiku
+
 Liked any of the photos? Contact Fidesio from HustleYangu
 
 ---
