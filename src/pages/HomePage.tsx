@@ -19,10 +19,10 @@ const HomePage = () => {
       <Speakers />
       <About />
       <Media />
-      <Events />
       <Ecommerce />
       <Voluteer />
       {/* <Gallery /> */}
+      {/* <Events /> */}
     </div>
   );
 };
