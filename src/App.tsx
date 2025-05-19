@@ -7,7 +7,7 @@ import EmbeddedNextApp from "./pages/EmbeddedNextApp";
 import Blog from "./pages/Blog";
 import ScrollToTop from "./components/ScrollToTop";
 import { useEffect } from "react";
-import Event from "./pages/Event";
+// import Event from "./pages/Event";
 
 const App = () => {
   return (
