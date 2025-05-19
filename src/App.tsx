@@ -42,7 +42,7 @@ const MainLayout = () => {
           <Route path="/lotto" element={<EmbeddedNextApp />} />
           <Route path="/Understand-why-ETHiopia" element={<WhyEthiopia />} />
           <Route path="/blogs" element={<Blog />} />
-          <Route path="/event" element={<Event />} />
+          {/* <Route path="/event" element={<Event />} /> */}
         </Routes>
       </div>
       <Footer />

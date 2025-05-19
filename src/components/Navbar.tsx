@@ -14,10 +14,10 @@ const navlinks = [
     href: "/blogs",
     label: "FAQs",
   },
-  {
-    href: "/event",
-    label: "Event",
-  },
+  // {
+  //   href: "/event",
+  //   label: "Event",
+  // },
 ];
 
 const Navbar = () => {
