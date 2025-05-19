@@ -1,7 +1,7 @@
 import About from "../components/About";
 import CompanyLogos from "../components/Companies";
 import Ecommerce from "../components/Ecommerce";
-import Events from "../components/event/Events";
+// import Events from "../components/event/Events";
 import Hero from "../components/Hero";
 // import MainEvent from "../components/MainEvent";
 import Media from "../components/Media";
